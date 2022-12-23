@@ -17,7 +17,9 @@ pip install -r requirements.txt
 
 ### Benchmark evaluation and training
 - Training
+```
 python train_net.py --config-file ./configs/MEDet_COCO_CLIP_R50.yaml --num-gpus $GPUS$
+```
 - Evaluation
 ```
 python train_net.py --config-file ./configs/MEDet_COCO_CLIP_R50.yaml --eval-only --num-gpus $GPUS$
